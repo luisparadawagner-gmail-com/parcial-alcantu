@@ -1,0 +1,10 @@
+[
+    { "nombre" : "maría" , "apellido" : "rivarola" , "edad" : 17 ,
+    "materia" : "MongoDB" , "anio" : "Segundo" },
+    { "nombre" : "roberto" , "apellido" : "carlos" , "edad" : 37 ,
+    "materia" : "Javascript" , "anio" : "Primero" },
+    { "nombre" : "julio" , "apellido" : "iglesias" , "edad" : 59 ,
+    "materia" : "NodeJS" , "anio" : "Tercero" },
+    { "nombre" : "giemena" , "apellido" : "gutierrez" , "edad" : 29 ,
+    "materia" : "ExpressJS" , "anio" : "Tercero" }
+    ]

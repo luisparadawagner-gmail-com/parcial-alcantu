@@ -1,0 +1,37 @@
+<h2>Planilla de ingreso</h2>
+<form [formGroup]='alumnoForm' (ngSubmit)=submit()>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input matInput placeholder="Pepe" type="text" formControlName="nombre" >
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Apellido</mat-label>
+        <input matInput placeholder="Perez" type="text" formControlName="apellido">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Edad</mat-label>
+        <input matInput placeholder="18" type="number" formControlName="edad">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label >Elija una materia</mat-label>
+      <mat-select formControlName="materia">
+        <mat-option value="MongoDB">MongoDB</mat-option>
+        <mat-option value="Javascript">Javascript</mat-option>
+        <mat-option value="NodeJS">NodeJS</mat-option>
+        <mat-option value="ExpressJS">ExpressJS</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+        <mat-label>Año de cursada</mat-label>
+        <input matInput placeholder="Mongo" type="text" formControlName="anio">
+    </mat-form-field>
+      
+
+    Status Formulario: {{alumnoForm.status}}
+    <button mat-raised-button>Guardar</button>
+</form>
